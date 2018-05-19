@@ -1,0 +1,103 @@
+/*general*/
+body{
+    font-family: 'arial', serif;
+    background-image: url("../img/graph-tile.png");
+    background-repeat: repeat;
+    padding: 0px;
+    margin: 0px;
+    width: 100%;
+        background-color: #dfdfdf;
+}
+.navbar {
+
+    flex-direction: row;
+ 
+}
+.navbar-brand{
+    margin-left: 1em;
+}
+
+.navbar .btn {
+    align-self : flex-end;
+}
+.navbar-expand-lg {
+    -ms-flex-flow: row nowrap;
+    flex-flow: row nowrap;
+    -ms-flex-pack: start;
+    justify-content:  space-between!important;
+}
+
+.yellowbar{
+    background-color: #ffc800b0;
+    color: white;
+}
+.menuside{
+    background-color: #3d4a61;
+    color: white;
+    list-style: none;
+    /* height: 100vh; */
+    align-self: stretch;
+}
+.menuside li{
+    list-style: none;
+
+}
+.brand{
+    text-align: center;
+}
+.brand img{
+    border-radius: 100%;
+    margin: 1em;
+}
+.brand h3{color: white;
+    font-size: 1rem;}
+
+.contenido{
+    background-color: #dfdfdf;
+    padding: 1em;
+}
+.col{
+    border: none;
+}
+.card {
+    padding: 0.8em;
+    margin-bottom: 1em;
+}
+.badging{
+    justify-items: stretch;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    flex-direction: row;
+}
+.barmenu li a{
+    color: white;
+}
+.blue{
+    background-color: blue;
+}
+.green{
+    background-color: green;
+
+}
+.red{
+    background-color: red;
+}
+@media screen and (max-width:480px){
+   
+}
+
+@media screen and (min-width:480px) and (max-width:767px){
+   
+}
+    
+@media screen and (min-width:768px) and (max-width:1023px){
+   
+}
+@media (min-width: 992px){
+.navbar-expand-lg .navbar-toggler {
+    display: block;
+}
+}
+@media all and (min-width:1024px){
+   
+}
