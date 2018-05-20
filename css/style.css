@@ -232,6 +232,38 @@ nav{
     text-align: center;
 }
 
+/*contact*/
+.fondoContact{
+
+      position: absolute;
+    width: 100%;
+    height: 500px;
+    max-height: 500px;
+    background-size: cover;
+    background-color: #455d7173;
+    z-index: -1;
+    background-image: url(../img/contact-bg.jpg);
+}
+
+.lol{
+    font-size: 1.5rem;
+    border: none;
+    border-bottom: 1px solid gray;
+    font-family: serif;
+}
+
+.fondoContact:after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 500px;
+    max-height: 500px;
+    background-color: #404040;
+    opacity: 0.75;
+}
+
 
 @media screen and (max-width:480px){
    .title {
